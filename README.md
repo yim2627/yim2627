@@ -1,3 +1,3 @@
-**IOS Lover 😁**
+**iOS Lover 😁**
 
 </br>
