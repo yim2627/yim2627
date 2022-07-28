@@ -10,11 +10,10 @@ latest_blog_post_list = ""
 
 MAX_POST_NUM = 10
 
-dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
-
 for idx, feed in enumerate(rss_feed['entries']):
     if idx > MAX_POST_NUM:
         break
+    dt = datetime.datetime.strptime(feed['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
     feed_date = feed['published_parsed']
     latest_blog_post_list += f"[{feed['title']}]({feed['link']}) - {dt}<br>\n"
     
