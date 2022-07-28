@@ -10,11 +10,13 @@ latest_blog_post_list = ""
 
 MAX_POST_NUM = 10
 
+dt = datetime.datetime.strptime(i['published'], "%a, %d %b %Y %H:%M:%S %z").strftime("%b %d, %Y")
+
 for idx, feed in enumerate(rss_feed['entries']):
     if idx > MAX_POST_NUM:
         break
     feed_date = feed['published_parsed']
-    latest_blog_post_list += f"[{feed_date.tm_year}/{feed_date.tm_mon}/{feed_date.tm_mday} - {feed['title']}]({feed['link']}) <br>\n"
+    latest_blog_post_list += f"[{feed['title']}]({feed['link']}) - {dt}<br>\n"
     
 markdown_text = """
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=yim2627&&count_private=true)
