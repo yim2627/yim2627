@@ -9,7 +9,7 @@
 
 ### Recent Post...
 
-[[Xcode] 단축키 좀 써주세요](https://limjs-dev.tistory.com/137) - Aug 06, 2022<br>
+[[Xcode] 단축키 좀 써주세요...](https://limjs-dev.tistory.com/137) - Aug 06, 2022<br>
 [[RxSwift] RxDataSources 사용해보기](https://limjs-dev.tistory.com/136) - Aug 02, 2022<br>
 [[Design Pattern] Coordinator Pattern](https://limjs-dev.tistory.com/135) - Jul 29, 2022<br>
 [README Github Action 적용기](https://limjs-dev.tistory.com/134) - Jul 29, 2022<br>
