@@ -11,7 +11,7 @@
 
 [[RxSwift] flatMapLatest (feat. flatMap)](https://limjs-dev.tistory.com/140) - Aug 09, 2022<br>
 [[RxSwift] map vs flatMap](https://limjs-dev.tistory.com/139) - Aug 09, 2022<br>
-[[iOS] View Drawing Cycle](https://limjs-dev.tistory.com/138) - Aug 07, 2022<br>
+[[iOS] View Drawing Cycle (Layout까지 작성함)](https://limjs-dev.tistory.com/138) - Aug 07, 2022<br>
 [[Xcode] 단축키 좀 써주세요...](https://limjs-dev.tistory.com/137) - Aug 06, 2022<br>
 [[RxSwift] RxDataSources 사용해보기](https://limjs-dev.tistory.com/136) - Aug 02, 2022<br>
 [[Design Pattern] Coordinator Pattern](https://limjs-dev.tistory.com/135) - Jul 29, 2022<br>
